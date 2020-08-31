@@ -1,0 +1,3 @@
+type Query {
+    clean_room(room: [String!], vacuum_position: [Int]): [String]!
+}
